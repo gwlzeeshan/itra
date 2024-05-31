@@ -2472,8 +2472,11 @@ body .footer-main .righ-side input {
 body .footer-main .righ-side .primary-btn {
   width: 20%;
 }
-body .footer-main .righ-side .value-btn {
-  gap: 24px;
+body .footer-main .righ-side .our-value-column {
+  max-width: 442px;
+}
+body .footer-main .righ-side .our-value-column .value-btn {
+  gap: 18px 24px;
 }
 body .footer-main .quick-link-main {
   border-top: 1px solid #4E4E4E;

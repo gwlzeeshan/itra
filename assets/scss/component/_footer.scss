@@ -39,16 +39,13 @@ body{
         padding: $gap_48 0 $gap_24;
         .left-side {
             max-width: 510px;
-            // .heading_5 {
-            //     margin-bottom: $gap_16;
-            // }
+           
             .sub-text {
                 font-size: $body16;
                 font-weight: 500;
                 line-height: 28px;
                 letter-spacing: -0.01em;
                 text-align: left;
-                // margin-bottom: $gap_40;
             }
         }
         .righ-side{
@@ -58,10 +55,13 @@ body{
             .primary-btn{
                 width: 20%;
             }
-            .value-btn{
-                gap: 24px;
-                
+            .our-value-column{
+                max-width: 442px;
+                .value-btn{
+                    gap: 18px 24px;
+                }
             }
+            
             
         }
         .quick-link-main{
