@@ -2429,7 +2429,8 @@ input:focus {
   height: 100%;
   width: 180px;
   z-index: 1;
-  clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+  -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+          clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
 }
 
 .footer-main {
@@ -2643,7 +2644,8 @@ input:focus {
     right: -62px;
     width: 140px;
     z-index: 1;
-    clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+    -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+            clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
   }
   .footer-banner .right-img-footer-banner {
     width: 140px;
@@ -2749,4 +2751,4 @@ input:focus {
 
 .text-900 {
   font-weight: 900 !important;
-}/*# sourceMappingURL=style.css.map */
+}
