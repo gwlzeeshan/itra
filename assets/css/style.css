@@ -2489,7 +2489,6 @@ input:focus {
 .footer-main .copywrite-section .copywrite p {
   margin-bottom: 0;
   font-size: 14px;
-  font-weight: 300;
   line-height: 14px;
 }
 .footer-main .copywrite-section ul {
@@ -2497,7 +2496,6 @@ input:focus {
 }
 .footer-main .copywrite-section ul li a {
   font-size: 14px;
-  font-weight: 300;
   line-height: 14px;
   text-decoration: none;
 }
