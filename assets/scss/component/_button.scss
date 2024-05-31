@@ -14,3 +14,20 @@
         border-color: #9bc363;
     }
 }
+.second-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: $gap_20 $gap_24;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    &:hover{
+        background: #fff;
+        border: 1px solid #fff;
+        color: #292D32;
+    }
+}
