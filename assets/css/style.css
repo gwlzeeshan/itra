@@ -2523,6 +2523,9 @@ input:focus {
   gap: 40px;
 }
 .footer-main .copywrite-section ul li a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
   text-decoration: none;
 }
 .footer-main .copywrite-section ul li a:after {

@@ -110,6 +110,9 @@
             gap: $gap_40;
             li{
                 a{
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 14px;
                     text-decoration: none;
                     &:after {
                         display: block;
