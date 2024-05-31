@@ -2351,12 +2351,12 @@
   color: #292D32;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .primary-btn {
-    padding: 16px 24px;
+    padding: 16px 14px;
   }
   .second-btn {
-    padding: 16px 24px;
+    padding: 16px 14px;
   }
 }
 /* Headding Start Here */
@@ -2648,6 +2648,10 @@ input:focus {
   }
 }
 @media (max-width: 991px) {
+  input {
+    font-size: 16px;
+    padding: 16px 16px;
+  }
   .footer-banner::before {
     height: 26px;
   }
@@ -2659,9 +2663,6 @@ input:focus {
   }
 }
 @media (max-width: 767px) {
-  input {
-    padding: 16px 24px;
-  }
   .footer-main {
     padding: 32px 0;
   }

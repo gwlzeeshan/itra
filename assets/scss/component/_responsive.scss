@@ -37,7 +37,10 @@
 }
 
 @media(max-width:991px){
-    
+    input{
+        font-size: $body16;
+        padding: $gap_16 $gap_16;
+    }
         .footer-banner{
             &::before{
                 height: 26px;
@@ -60,9 +63,7 @@
     
 }
 @media(max-width:767px){
-    input{
-        padding: $gap_16 $gap_24;
-    }
+   
     .footer-main{
         padding: $gap_32 0 ;
         .footer-logo{
