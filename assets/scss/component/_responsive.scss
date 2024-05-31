@@ -5,7 +5,7 @@
     
 }
 @media(max-width:1199px) {
-    body{
+    
         .footer-banner{
            
             .footer-banner-shape{
@@ -23,17 +23,17 @@
                 width: 140px;
             }
         }
-    }
+    
 }
 
 @media(max-width:991px){
-    body{
+  
         .footer-banner{
             &::before{
                 height: 26px;
             }
         }
-    }
+    
 }
 @media(max-width:881px){
     

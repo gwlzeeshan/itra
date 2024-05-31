@@ -1,5 +1,3 @@
-body{
-    background: #DEDEDE;
 
     .footer-banner{
         background: #fff;
@@ -80,6 +78,10 @@ body{
                 }
             }
         }
+        .social-media-icon{
+            ul{
+                gap: 16px;
+            }
+        }
     }
-}
 
