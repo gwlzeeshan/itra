@@ -1,47 +1,6 @@
-// Avenir-Next font start
-@font-face {
-    font-family: 'Avenir-Next-Webfont';
-    src: url('../fonts/Avenir-Next-Webfont/Avenir-Next-Regular/AvenirNextRegular.woff2') format('woff2'),
-        url('../fonts/Avenir-Next-Webfont/Avenir-Next-Regular/AvenirNextRegular.woff') format('woff'),
-        url('../fonts/Avenir-Next-Webfont/Avenir-Next-Regular/AvenirNext-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-}
-@font-face {
-    font-family: 'AvenirNext-Medium';
-    src: url('../fonts/Avenir-Next-Webfont/AvenirNext-Medium/AvenirNext-Medium.woff2') format('woff2'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-Medium/AvenirNext-Medium.woff') format('woff'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-Medium/AvenirNext-Medium.ttf') format('truetype');
-        font-weight: 500;
-        font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Avenir-Next-DemiBold';
-    src: url('../fonts/Avenir-Next-Webfont/AvenirNext-DemiBold/AvenirNext-DemiBold.woff2') format('woff2'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-DemiBold/AvenirNext-DemiBold.woff') format('woff'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-DemiBold/AvenirNext-DemiBold.ttf') format('truetype');
-    font-weight: 600;
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
-    font-display: swap;
 }
-@font-face {
-    font-family: 'AvenirNext-Heavy';
-    src: url('../fonts/Avenir-Next-Webfont/AvenirNext-Heavy/AvenirNext-Heavy.woff2') format('woff2'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-Heavy/AvenirNext-Heavy.woff') format('woff'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-Heavy/AvenirNext-Heavy.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'AvenirNext-Bold';
-    src: url('../fonts/Avenir-Next-Webfont/AvenirNext-Bold/AvenirNext-Bold.woff2') format('woff2'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-Bold/AvenirNext-Bold.woff') format('woff'),
-        url('../fonts/Avenir-Next-Webfont/AvenirNext-Bold/AvenirNext-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-// Avenir-Next font End

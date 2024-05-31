@@ -18,24 +18,25 @@
 </head>
 
 <body>
-  <div class="header">
+  <div class="header d-flex flex-column">
     <div class="top_header" id="top_header">
       <div class="container">
         <div class="row">
           <div class="col-md-12 d-flex  align-items-center">
-            <div class="logo">
+            <div class="logo d-lg-block d-none">
               <img src="assets/images/logo.svg" alt="logo">
             </div>
             <div class="itra_partner ms-lg-5 ms-0 d-flex align-items-center">
               <p>Official ITRA Partner</p>
-              <img src="assets/images/partner_logo.svg" alt="itra_partner" class="ms-lg-5 ms-3">
+              <img src="assets/images/partner_logo.svg" alt="itra_partner" class="ms-lg-5 ms-3 d-lg-block d-none">
+              <img src="assets/images/dark_logo.svg" alt="itra_partner" class="ms-lg-5 ms-3 d-lg-none d-block">
             </div>
             <div class="dropdown_language ms-auto">
               <div class="dropdown">
                 <a class="dropdown-toggle d-flex text-white" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   <div class="circle me-lg-2 me-0"><img src="assets/images/usa_flag.svg" alt="flag"></div>
-                  <p class="m-0">EN</p> <img src="assets/images/arrow-down.svg" class="ms-2" />
+                  <p class="m-0">EN</p> <img src="assets/images/arrow-down.svg" class="ms-2 d-lg-block d-none" /> <img src="assets/images/arrow-down_black.svg" alt="itra_partner" class="ms-lg-5 ms-2 d-lg-none d-block">
                 </a>
 
                 <ul class="dropdown-menu">
@@ -51,7 +52,7 @@
                   data-bs-toggle="dropdown" aria-expanded="false">
                   <div class="circle me-2 d-flex justify-content-center align-items-center"><img
                       src="assets/images/user_img.png" alt="flag"></div>
-                  <p class="m-0">Guy</p> <img src="assets/images/arrow-down.svg" class="ms-auto" />
+                  <p class="m-0">Guy</p> <img src="assets/images/arrow-down.svg" class="ms-auto d-lg-block d-none" /> <img src="assets/images/arrow-down_black.svg" alt="itra_partner" class="ms-auto d-lg-none d-block">
                 </a>
 
                 <ul class="dropdown-menu">
@@ -68,6 +69,10 @@
     <div class="bottom_header">
       <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
+          <div class="logo d-lg-none d-block">
+            <img src="assets/images/logo.svg" alt="logo">
+          </div>
+
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
