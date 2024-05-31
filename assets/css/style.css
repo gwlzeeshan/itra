@@ -2331,6 +2331,12 @@
     padding: 16px 14px;
   }
 }
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* Headding Start Here */
 .heading_1 {
   font-size: 60px;
@@ -2454,7 +2460,7 @@ input:focus {
   width: 20%;
 }
 .footer-main .righ-side .our-value-column {
-  max-width: 442px;
+  max-width: 446px;
 }
 .footer-main .righ-side .our-value-column .value-btn {
   gap: 18px 24px;
@@ -2508,12 +2514,6 @@ input:focus {
 }
 .footer-main .copywrite-section ul li a:hover:after {
   transform: scaleX(1);
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 .top_header {
@@ -2677,9 +2677,6 @@ body {
   .footer-main .footer-logo {
     margin-bottom: 24px;
   }
-  .footer-main .left-side {
-    padding: 0 10px;
-  }
   .footer-main .left-side h5.mt_40 {
     margin-top: 32px;
   }
@@ -2687,7 +2684,6 @@ body {
     margin-bottom: 20px;
   }
   .footer-main .righ-side {
-    padding: 0 10px;
     margin-top: 32px;
   }
   .footer-main .righ-side h5.mb_24 {
@@ -2696,15 +2692,8 @@ body {
   .footer-main .righ-side .our-value-column .value-btn {
     gap: 18px 18px;
   }
-  .footer-main .quick-link-main .quick-menu {
-    padding: 0 10px;
-  }
   .footer-main .quick-link-main .social-media-icon {
-    padding: 0 10px;
     margin-top: 24px;
-  }
-  .footer-main .copywrite-section {
-    padding: 0 10px;
   }
   .footer-main .copywrite-section .copywrite {
     text-align: center;
