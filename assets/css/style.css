@@ -2422,6 +2422,7 @@ input {
   padding: 20px 24px;
   border-radius: 8px;
   border: 1px solid #fff;
+  color: #292D32;
 }
 
 input:focus {
