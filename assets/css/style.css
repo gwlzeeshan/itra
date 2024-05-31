@@ -204,6 +204,7 @@ body .footer-main .quick-link-main {
 body .footer-main .quick-link-main .quick-menu {
   gap: 16px;
   padding-left: 0;
+  margin-bottom: 0;
 }
 body .footer-main .quick-link-main .quick-menu li a {
   text-decoration: none;
