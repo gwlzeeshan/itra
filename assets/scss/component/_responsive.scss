@@ -1,8 +1,18 @@
 @media (min-width:1440x) and (max-width: 1920px){
     
 }
-@media(min-width:1281px) and (max-width:1439px){
-    
+
+@media(max-width:1440px) {
+    .footer-main{
+        .righ-side {
+            input{
+                width: 75%;
+            }
+            .primary-btn{
+                width: 25%;
+            }
+        }
+    }
 }
 @media(max-width:1199px) {
     
@@ -27,10 +37,20 @@
 }
 
 @media(max-width:991px){
-  
+    
         .footer-banner{
             &::before{
                 height: 26px;
+            }
+        }
+        .footer-main{
+            .righ-side {
+                input{
+                    width: 62%;
+                }
+                .primary-btn{
+                    width: 38%;
+                }              
             }
         }
     
@@ -40,9 +60,58 @@
     
 }
 @media(max-width:767px){
-    
+    input{
+        padding: $gap_16 $gap_24;
+    }
+    .footer-main{
+        padding: $gap_32 0 ;
+        .footer-logo{
+            margin-bottom: $gap_24;
+        }
 
-    
+        .left-side{
+            padding: 0 $gap_10;
+            h5{
+                &.mt_40{
+                    margin-top: 32px;
+                }
+                &.mb_24{
+                    margin-bottom: $gap_20;
+                }
+            }
+        }
+        .righ-side{
+            padding: 0 $gap_10;
+            margin-top: $gap_32;
+            h5{
+                &.mb_24{
+                    margin-bottom: $gap_16;
+                }
+                
+            }
+            .our-value-column{
+                .value-btn{
+                    gap: $gap_18 $gap_18;
+                }
+            }
+        }
+        .quick-link-main{
+            .quick-menu{
+            padding: 0 $gap_10;
+        }
+            .social-media-icon{
+                padding: 0 $gap_10;
+                margin-top: $gap_24;
+            }
+        }
+        .copywrite-section{
+            padding: 0 $gap_10;
+            .copywrite{
+                text-align: center;
+                margin-bottom: $gap_16;
+            }
+        }
+    }
     
 }
 

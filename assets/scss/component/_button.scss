@@ -9,6 +9,7 @@
     text-align: center;
     text-decoration: none;
     border-radius: 12px;
+    transition: 0.3s ease-out;
     &:hover{
         background: #9bc363;
         border-color: #9bc363;
@@ -25,9 +26,18 @@
     text-align: center;
     text-decoration: none;
     border-radius: 12px;
+    transition: 0.3s ease-out;
     &:hover{
         background: #fff;
         border: 1px solid #fff;
         color: #292D32;
+    }
+}
+@media(max-width:767px){
+    .primary-btn{
+        padding: $gap_16 $gap_24;
+    }
+    .second-btn{
+        padding: $gap_16 $gap_24;        
     }
 }
