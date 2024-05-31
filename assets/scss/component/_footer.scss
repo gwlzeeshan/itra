@@ -53,7 +53,34 @@ body{
                 text-align: left;
                 // margin-bottom: $gap_40;
             }
+        }
+        .righ-side{
+            input{
+                width: 80%;
+            }
+            .primary-btn{
+                width: 20%;
+            }
+            .value-btn{
+                gap: 24px;
+                
+            }
             
+        }
+        .quick-link-main{
+            border-top: 1px solid #4E4E4E;
+            border-bottom: 1px solid #4E4E4E;
+            padding: $gap_12 0;
+            margin-top: $gap_32;
+            .quick-menu{
+                gap: 16px;
+                padding-left: 0;
+                li {
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
         }
     }
 }

@@ -51,6 +51,24 @@
   border-color: #9bc363;
 }
 
+.second-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 20px 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.second-btn:hover {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #292D32;
+}
+
 /* Headding Start Here */
 .heading_1 {
   font-size: 60px;
@@ -104,14 +122,21 @@
   color: #fff;
 }
 
-.input {
+input {
   background: #fff;
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.01em;
   text-align: left;
-  padding: 20px 24px 18px;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0;
 }
 
 body {
@@ -144,7 +169,8 @@ body .footer-banner .footer-banner-shape::after {
   height: 100%;
   width: 180px;
   z-index: 1;
-  clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+  -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+          clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
 }
 body .footer-main {
   background: #292D32;
@@ -159,6 +185,28 @@ body .footer-main .left-side .sub-text {
   line-height: 28px;
   letter-spacing: -0.01em;
   text-align: left;
+}
+body .footer-main .righ-side input {
+  width: 80%;
+}
+body .footer-main .righ-side .primary-btn {
+  width: 20%;
+}
+body .footer-main .righ-side .value-btn {
+  gap: 24px;
+}
+body .footer-main .quick-link-main {
+  border-top: 1px solid #4E4E4E;
+  border-bottom: 1px solid #4E4E4E;
+  padding: 12px 0;
+  margin-top: 32px;
+}
+body .footer-main .quick-link-main .quick-menu {
+  gap: 16px;
+  padding-left: 0;
+}
+body .footer-main .quick-link-main .quick-menu li a {
+  text-decoration: none;
 }
 
 .top_header {
@@ -254,7 +302,8 @@ body .footer-main .left-side .sub-text {
     right: -62px;
     width: 140px;
     z-index: 1;
-    clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+    -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+            clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
   }
   body .footer-banner .right-img-footer-banner {
     width: 140px;
@@ -264,4 +313,4 @@ body .footer-main .left-side .sub-text {
   body .footer-banner::before {
     height: 26px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
