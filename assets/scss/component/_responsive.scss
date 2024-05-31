@@ -106,9 +106,25 @@
         }
         .copywrite-section{
             padding: 0 $gap_10;
+            
             .copywrite{
                 text-align: center;
                 margin-bottom: $gap_16;
+                p{
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 12px;
+
+                }
+                ul{ 
+                    li{
+                        a{
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 12px;
+                        }
+                    }
+                }
             }
         }
     }

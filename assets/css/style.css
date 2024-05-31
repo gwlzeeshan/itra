@@ -2701,4 +2701,14 @@ input:focus {
     text-align: center;
     margin-bottom: 16px;
   }
+  .footer-main .copywrite-section .copywrite p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  .footer-main .copywrite-section .copywrite ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+  }
 }
