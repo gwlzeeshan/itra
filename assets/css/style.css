@@ -2449,7 +2449,8 @@ body .footer-banner .footer-banner-shape::after {
   height: 100%;
   width: 180px;
   z-index: 1;
-  clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+  -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+          clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
 }
 body .footer-main {
   background: #292D32;
@@ -2582,7 +2583,8 @@ body .footer-main .quick-link-main .quick-menu li a {
     right: -62px;
     width: 140px;
     z-index: 1;
-    clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+    -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+            clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
   }
   body .footer-banner .right-img-footer-banner {
     width: 140px;
@@ -2592,4 +2594,4 @@ body .footer-main .quick-link-main .quick-menu li a {
   body .footer-banner::before {
     height: 26px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
