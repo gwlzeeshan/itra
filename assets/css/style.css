@@ -2283,7 +2283,6 @@
 .montserrat-font {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -2430,8 +2429,7 @@ input:focus {
   height: 100%;
   width: 180px;
   z-index: 1;
-  -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
-          clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+  clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
 }
 
 .footer-main {
@@ -2645,8 +2643,7 @@ input:focus {
     right: -62px;
     width: 140px;
     z-index: 1;
-    -webkit-clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
-            clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
+    clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
   }
   .footer-banner .right-img-footer-banner {
     width: 140px;
@@ -2718,3 +2715,38 @@ input:focus {
     line-height: 12px;
   }
 }
+.text-100 {
+  font-weight: 100 !important;
+}
+
+.text-200 {
+  font-weight: 200 !important;
+}
+
+.text-300 {
+  font-weight: 300 !important;
+}
+
+.text-400 {
+  font-weight: 400 !important;
+}
+
+.text-500 {
+  font-weight: 500 !important;
+}
+
+.text-600 {
+  font-weight: 600 !important;
+}
+
+.text-700 {
+  font-weight: 700 !important;
+}
+
+.text-800 {
+  font-weight: 800 !important;
+}
+
+.text-900 {
+  font-weight: 900 !important;
+}/*# sourceMappingURL=style.css.map */
