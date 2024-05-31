@@ -3,12 +3,13 @@
     border: 1px solid #A8D36A;
     padding: $gap_20 $gap_24;
     color: #292D32;
-    font-size: 16px;
+    font-size: $body16;
     font-weight: 500;
     line-height: 16px;
     text-align: center;
     text-decoration: none;
     border-radius: 12px;
+    transition: 0.3s ease-out;
     &:hover{
         background: #9bc363;
         border-color: #9bc363;
@@ -19,15 +20,24 @@
     border: 1px solid #fff;
     padding: $gap_20 $gap_24;
     color: #fff;
-    font-size: 16px;
+    font-size: $body16;
     font-weight: 500;
     line-height: 16px;
     text-align: center;
     text-decoration: none;
     border-radius: 12px;
+    transition: 0.3s ease-out;
     &:hover{
         background: #fff;
         border: 1px solid #fff;
         color: #292D32;
+    }
+}
+@media(max-width:991px){
+    .primary-btn{
+        padding: $gap_16 $gap_14;
+    }
+    .second-btn{
+        padding: $gap_16 $gap_14;        
     }
 }

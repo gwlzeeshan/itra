@@ -1,84 +1,130 @@
-body{
-    background: #DEDEDE;
 
-    .footer-banner{
-        background: #fff;
-        position: relative;
-        z-index: 0;
-        
+.footer-banner{
+    background: #fff;
+    position: relative;
+    z-index: 0;
     
-        &::before{
+
+    &::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background: #DEDEDE;
+        height: 40px;
+        width: 100%;
+        z-index: -1;
+    }
+    .footer-banner-shape{
+        position: relative;
+        &::after{
             position: absolute;
             content: '';
             top: 0;
-            left: 0;
-            background: #DEDEDE;
-            height: 40px;
-            width: 100%;
-            z-index: -1;
+            right: -77px;
+            background: #A8D36A;
+            height: 100%;
+            width: 180px;
+            z-index: 1;
+            clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
         }
-        .footer-banner-shape{
-            position: relative;
-            &::after{
-                position: absolute;
-                content: '';
-                top: 0;
-                right: -77px;
-                background: #A8D36A;
-                height: 100%;
-                width: 180px;
-                z-index: 1;
-                clip-path: polygon(0% 0%, 58% 0%, 100% 100%, 42% 100%);
-            }
-            
+        
+    }
+}
+// Footer Banner css End
+.footer-main {
+    background: #292D32;
+    padding: $gap_48 0 $gap_12;
+    .left-side {
+        max-width: 510px;
+        
+        .sub-text {
+            font-size: $body16;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
         }
     }
-    // Footer Banner css End
-    .footer-main {
-        background: #292D32;
-        padding: $gap_48 0 $gap_24;
-        .left-side {
-            max-width: 510px;
-            // .footer-logo{
-            //     margin-bottom: 38px;
-            // }
-            // .heading_5 {
-            //     margin-bottom: $gap_16;
-            // }
-            .sub-text {
-                font-size: $body16;
-                font-weight: 500;
-                line-height: 28px;
-                letter-spacing: -0.01em;
-                text-align: left;
-                // margin-bottom: $gap_40;
-            }
+    .righ-side{
+        input{
+            width: 80%;
         }
-        .righ-side{
-            input{
-                width: 80%;
-            }
-            .primary-btn{
-                width: 20%;
-            }
+        .primary-btn{
+            width: 20%;
+        }
+        .our-value-column{
+            max-width: 442px;
             .value-btn{
-                gap: 24px;
-                
+                gap: $gap_18 $gap_24;
             }
-            
         }
-        .quick-link-main{
-            border-top: 1px solid #4E4E4E;
-            border-bottom: 1px solid #4E4E4E;
-            padding: $gap_12 0;
-            margin-top: $gap_32;
-            .quick-menu{
-                gap: 16px;
-                padding-left: 0;
+        
+        
+    }
+    .quick-link-main{
+        border-top: 1px solid #4E4E4E;
+        border-bottom: 1px solid #4E4E4E;
+        padding: $gap_12 0;
+        margin-top: $gap_32;
+        .quick-menu{
+            gap: $gap_16;
+            padding-left: 0;
+            margin-bottom: 0;
+            li {
+                a{
+                    text-decoration: none;
+                    &:after {
+                        display: block;
+                        content: '';
+                        border-bottom: 1px solid  #fff;
+                        transform: scaleX(0);
+                        transition: transform 300ms ease-in-out;
+                    }
+                    &:hover{
+                        &:after {
+                            transform: scaleX(1);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    .social-media-icon{
+        ul{
+            gap: $gap_16;
+        }
+    }
+    .copywrite-section{
+        .copywrite{
+            p{
                 margin-bottom: 0;
-                li {
-                    a{
-                        text-decoration: none;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 14px;
+
+            }
+        }
+        ul{
+            gap: $gap_40;
+            li{
+                a{
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 14px;
+                    text-decoration: none;
+                    &:after {
+                        display: block;
+                        content: '';
+                        border-bottom: 1px solid  #fff;
+                        transform: scaleX(0);
+                        transition: transform 300ms ease-in-out;
+                    }
+                    &:hover{
+                        &:after {
+                            transform: scaleX(1);
+                        }
                     }
                 }
             }
