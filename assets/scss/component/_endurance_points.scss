@@ -1,0 +1,59 @@
+.endurance_points{
+    .col{
+        flex: 0 0 0;
+    }
+}
+
+.endurance_points_card{
+    border-radius: 7px;
+    border: 0.875px solid #DEDEDE;
+
+    h4{
+        color: #292D32;
+        font-family: Montserrat;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 21px; /* 100% */
+    }
+    
+}
+.custom_badges{
+    padding: 14px 10px;
+    
+    p{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 21px; /* 100% */
+    }
+}
+.gray_bg{
+background: #797B77;
+}
+.l_gray_bg{
+    background: #8CCE3C;
+}
+.yellow_bg{
+    background: #D1C40A;
+
+}
+
+.l_blue_bg{
+    background: #5BC9EE;
+
+}
+.purple_bg{
+    background: #B16DA7;
+
+}
+.orrange_bg{
+    background: #DA702D;
+
+}
+.red_bg{
+    background: #B53229;
+
+}

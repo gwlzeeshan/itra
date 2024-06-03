@@ -2816,6 +2816,116 @@ input:focus {
   color: #292D32;
 }
 
+.endurance_points .col {
+  flex: 0 0 0;
+}
+
+.endurance_points_card {
+  border-radius: 7px;
+  border: 0.875px solid #DEDEDE;
+}
+.endurance_points_card h4 {
+  color: #292D32;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px; /* 100% */
+}
+
+.custom_badges {
+  padding: 14px 10px;
+}
+.custom_badges p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px; /* 100% */
+}
+
+.gray_bg {
+  background: #797B77;
+}
+
+.l_gray_bg {
+  background: #8CCE3C;
+}
+
+.yellow_bg {
+  background: #D1C40A;
+}
+
+.l_blue_bg {
+  background: #5BC9EE;
+}
+
+.purple_bg {
+  background: #B16DA7;
+}
+
+.orrange_bg {
+  background: #DA702D;
+}
+
+.red_bg {
+  background: #B53229;
+}
+
+.card_headding {
+  color: #585858;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.link_btn {
+  color: #585858;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.general_stats_cards {
+  border-radius: 4px;
+  border: 1px solid #DEDEDE;
+  padding: 24px;
+  margin: 7px 0px;
+}
+.general_stats_cards .general_circle {
+  width: 40px;
+  height: 40px;
+  background: #A8D36A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.general_stats_cards h5 {
+  color: #585858;
+  /* Body/H2 - Medium 14 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  letter-spacing: -0.14px;
+}
+.general_stats_cards h4 {
+  color: #292D32;
+  /* Headings/H5 - Bold 20 */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+
 @media (max-width: 1440px) {
   .footer-main .righ-side input {
     width: 75%;
