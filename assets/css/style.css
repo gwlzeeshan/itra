@@ -2323,6 +2323,28 @@
   color: #292D32;
 }
 
+.link_btn {
+  color: #585858 !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+  border: 1px solid none;
+}
+.link_btn:after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid #585858;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.link_btn:hover:after {
+  transform: scaleX(1);
+}
+
 @media (max-width: 991px) {
   .primary-btn {
     padding: 16px 14px;
@@ -2411,9 +2433,17 @@ input:focus {
 
 .card-custom {
   background: #fff;
-  padding: 24px 24px;
+  padding: 24px;
   border-radius: 8px;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.0784313725);
+}
+
+.card_headding {
+  color: #585858;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .top_header {
@@ -2889,28 +2919,15 @@ input:focus {
   background: #B53229;
 }
 
-.card_headding {
-  color: #585858;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-}
-
-.link_btn {
-  color: #585858;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 16px; /* 100% */
-  letter-spacing: -0.16px;
-}
-
 .general_stats_cards {
   border-radius: 4px;
   border: 1px solid #DEDEDE;
   padding: 24px;
   margin: 7px 0px;
+}
+.general_stats_cards .card-custom .card_header .link_btn {
+  display: flex;
+  align-items: center;
 }
 .general_stats_cards .general_circle {
   width: 40px;
@@ -2950,7 +2967,7 @@ input:focus {
   width: 100%;
   min-height: 279px;
   max-height: 280px;
-  margin-bottom: 16px;
+  margin-bottom: 26px;
 }
 .three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body {
   padding: 0;
@@ -2965,7 +2982,7 @@ input:focus {
   text-align: left;
   margin-bottom: 24px;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body .link-btn {
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body .link-column-btn {
   line-height: 14px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -3153,6 +3170,9 @@ input:focus {
   }
 }
 @media (max-width: 767px) {
+  .card-custom {
+    padding: 20px 16px;
+  }
   .performance-index-card {
     background: transparent;
     border: none;
@@ -3211,6 +3231,9 @@ input:focus {
   }
   .three-column-setion .card-custom .col-lg-4.col-md-4:last-child {
     margin-bottom: 0;
+  }
+  .three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-img-top {
+    margin-bottom: 16px;
   }
   .three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body h4.card-title {
     margin-bottom: 12px;

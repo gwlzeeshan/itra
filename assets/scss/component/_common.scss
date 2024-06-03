@@ -78,8 +78,15 @@ input:focus{
 }
 .card-custom{
     background: #fff;
-    padding: 24px 24px;
+    padding: $gap_24;
     border-radius: 8px ;
     box-shadow: 0px 2px 6px 0px #00000014;
 
+}
+.card_headding{
+    color: #585858;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
 }

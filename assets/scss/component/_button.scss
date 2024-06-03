@@ -33,6 +33,30 @@
         color: #292D32;
     }
 }
+.link_btn{
+    color: #585858 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.16px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+    border: 1px solid none;
+
+    &:after {
+        display: block;
+        content: '';
+        border-bottom: 1px solid  #585858;
+        transform: scaleX(0);
+        transition: transform 300ms ease-in-out;
+    }
+    &:hover{
+        &:after {
+            transform: scaleX(1);
+        }
+    }
+}
 @media(max-width:991px){
     .primary-btn{
         padding: $gap_16 $gap_14;

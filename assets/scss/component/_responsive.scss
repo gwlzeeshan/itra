@@ -161,6 +161,12 @@
 }
 
 @media(max-width:767px){
+    .card-custom{
+        padding: $gap_20 $gap_16;
+    }
+    .general_stats{
+        
+    }
     
     // --- three-column-setion End
     .performance-index-card {
@@ -230,11 +236,14 @@
         .card-custom {
 
             .col-lg-4.col-md-4{
-                margin-bottom: 32px;
+                margin-bottom: $gap_32;
                 &:last-child{
                     margin-bottom: 0;
                 }
                 .card {
+                    .card-img-top {
+                        margin-bottom: $gap_16;
+                    }
                     .card-body {
                         h4{
                             &.card-title{
