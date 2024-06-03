@@ -2829,12 +2829,34 @@ input:focus {
   .performance-index-card .left {
     width: 40%;
   }
+  .performance-index-card .left .title-head .title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .left .title-head .title img {
+    margin-left: 8px;
+  }
+  .performance-index-card .left .title-head .index-select {
+    width: 130px;
+    font-size: 14px;
+    line-height: 14px;
+  }
   .performance-index-card .right {
-    margin-left: 36px;
+    margin-left: 26px;
     padding-left: 22px;
   }
   .performance-index-card .right .profile-info .info-block .label {
-    width: 140px;
+    width: 130px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .right .profile-status .status-btn .status .label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .right .profile-status .status-btn .status .value {
+    font-size: 14px;
+    line-height: 16px;
   }
   .footer-banner .footer-banner-shape::after {
     right: -62px;
@@ -2855,18 +2877,6 @@ input:focus {
   .performance-index-card .left {
     width: 50%;
   }
-  .performance-index-card .left .title-head .title {
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .performance-index-card .left .title-head .title img {
-    margin-left: 8px;
-  }
-  .performance-index-card .left .title-head .index-select {
-    width: 130px;
-    font-size: 14px;
-    line-height: 14px;
-  }
   .performance-index-card .left .performance-progress {
     padding-bottom: 50px;
   }
@@ -2880,7 +2890,6 @@ input:focus {
     display: block;
   }
   .performance-index-card .right .profile-info {
-    display: block;
     margin-bottom: 16px;
   }
   .performance-index-card .right .profile-info .info-block .label {
@@ -2914,18 +2923,6 @@ input:focus {
     border: 1px solid #F3F3F3;
     border-radius: 12px;
   }
-  .performance-index-card .left .title-head .title {
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .performance-index-card .left .title-head .title img {
-    margin-left: 8px;
-  }
-  .performance-index-card .left .title-head .index-select {
-    width: 130px;
-    font-size: 14px;
-    line-height: 14px;
-  }
   .performance-index-card .left .performance-progress {
     padding-bottom: 50px;
   }
@@ -2954,17 +2951,20 @@ input:focus {
     justify-content: flex-start;
     gap: 12px;
   }
-  .performance-index-card .right .profile-status .status {
+  .performance-index-card .right .profile-status .status-btn {
+    max-width: 230px;
+  }
+  .performance-index-card .right .profile-status .status-btn .status {
     width: auto;
   }
-  .performance-index-card .right .profile-status .status.status.subscription-status {
+  .performance-index-card .right .profile-status .status-btn .status.status.subscription-status {
     margin-bottom: 16px;
   }
-  .performance-index-card .right .profile-status .status .label {
+  .performance-index-card .right .profile-status .status-btn .status .label {
     font-size: 14px;
     line-height: 14px;
   }
-  .performance-index-card .right .profile-status .status .value {
+  .performance-index-card .right .profile-status .status-btn .status .value {
     font-size: 14px;
     line-height: 16px;
   }

@@ -19,16 +19,50 @@
     .performance-index-card {
         .left{
             width: 40%;
+            .title-head{
+                .title{
+                    font-size: 14px;
+                    line-height: 14px;
+                    img{
+                        margin-left: 8px;
+                    }
+                }
+                .index-select{
+                    width: 130px;
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
         }
        .right {
-        margin-left: 36px;
+        margin-left: 26px;
         padding-left: 22px;
         .profile-info{
             .info-block{
                 .label{
-                    width: 140px;
+                    width: 130px;
+                    font-size: 14px;
+                    line-height: 14px;
                 }
             }
+        }
+        .profile-status {           
+            
+            .status-btn {
+                
+                .status{
+                    .label{
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+                    .value{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                }
+            }
+           
+            
         }
        }
     }
@@ -64,20 +98,7 @@
     .performance-index-card {
         .left{
             width: 50%;
-            .title-head{
-                .title{
-                    font-size: 14px;
-                    line-height: 14px;
-                    img{
-                        margin-left: 8px;
-                    }
-                }
-                .index-select{
-                    width: 130px;
-                    font-size: 14px;
-                    line-height: 14px;
-                }
-            }
+           
             .performance-progress{
                 padding-bottom: 50px;
                 .progress-popover{
@@ -91,7 +112,7 @@
         padding-left: 22px;
         display: block;
         .profile-info{
-            display: block;
+          
             margin-bottom: 16px;
             .info-block{
                 .label{
@@ -135,20 +156,7 @@
             background: #FFFFFF;
             border: 1px solid #F3F3F3;
             border-radius: 12px;
-            .title-head{
-                .title{
-                    font-size: 14px;
-                    line-height: 14px;
-                    img{
-                        margin-left: 8px;
-                    }
-                }
-                .index-select{
-                    width: 130px;
-                    font-size: 14px;
-                    line-height: 14px;
-                }
-            }
+            
             .performance-progress{
                 padding-bottom: 50px;
                 .progress-popover{
@@ -182,21 +190,25 @@
                 justify-content: flex-start;
                 gap: 12px;
             }
-            .status{
-                width: auto;
-                
-                &.status.subscription-status{
-                    margin-bottom: 16px;
-                }
-                .label{
-                    font-size: 14px;
-                    line-height: 14px;
-                }
-                .value{
-                    font-size: 14px;
-                    line-height: 16px;
+            .status-btn {
+                max-width: 230px;
+                .status{
+                    width: auto;
+                    
+                    &.status.subscription-status{
+                        margin-bottom: 16px;
+                    }
+                    .label{
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+                    .value{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
                 }
             }
+           
             
         }
         
@@ -236,16 +248,13 @@
             }
         }
         .quick-link-main{
-            .quick-menu{
-            // padding: 0 $gap_10;
-        }
+           
             .social-media-icon{
-                // padding: 0 $gap_10;
+                
                 margin-top: $gap_24;
             }
         }
         .copywrite-section{
-            // padding: 0 $gap_10;
             
             .copywrite{
                 text-align: center;
