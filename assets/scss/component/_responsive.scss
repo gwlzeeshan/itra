@@ -16,10 +16,29 @@
 }
 @media(max-width:1199px) {
     
+    .performance-index-card {
+        .left{
+            width: 40%;
+        }
+       .right {
+        margin-left: 36px;
+        padding-left: 22px;
+        .profile-info{
+            .info-block{
+                .label{
+                    width: 140px;
+                }
+            }
+        }
+       }
+    }
+
+
+
+
+    
         .footer-banner{
-           
             .footer-banner-shape{
-            
                 &::after{
                     right: -62px;
                     width: 140px;
