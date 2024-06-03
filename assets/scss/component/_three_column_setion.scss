@@ -1,0 +1,19 @@
+.three-column-setion {
+    margin: 16px 0;
+    .card-custom {
+        .card {
+            background: #000;
+            .card-img-top {
+                border-radius: 8px;
+                width: 100%;
+                min-height: 279px;
+                max-height: 280px;
+            }
+            .card-body {
+                padding-left: 0;
+                padding-right: 0;
+            }
+             
+        }
+    }
+}
