@@ -161,6 +161,8 @@
 }
 
 @media(max-width:767px){
+    
+    // --- three-column-setion End
     .performance-index-card {
         background: transparent;
         border: none;
@@ -232,6 +234,22 @@
                 &:last-child{
                     margin-bottom: 0;
                 }
+                .card {
+                    .card-body {
+                        h4{
+                            &.card-title{
+                                margin-bottom: $gap_12;
+                                line-height: 16px;
+                            }
+                        }
+                        p{
+                            &.card-text{
+                                margin-bottom: $gap_20;
+                            }
+                        }
+                       
+                    }
+                }
             }
             
         }
@@ -299,10 +317,5 @@
             }
         }
     }
-    
-}
-
-
-@media(max-width:575px){
     
 }

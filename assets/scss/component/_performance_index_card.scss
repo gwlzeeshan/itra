@@ -56,20 +56,28 @@
         height: 40px;
         display: inline-block;
         position: relative;
-        &.low{
+        &.green{
           background-color: #4D9E6E;
-          color: #fff;
+         
           &::before{
             border-bottom-color: #4D9E6E;
           }
         }
-        &.med{
+        &.yellow{
+          background-color: #FFEA72;
+          color: #292D32;
+          &::before{
+            border-bottom-color: #FFEA72;
+          }
+        }
+        &.orange{
           background-color: #FFB470;
+          color: #292D32;
           &::before{
             border-bottom-color: #FFB470;
           }
         }
-        &.high{
+        &.red{
           background-color: #C94F56;
           &::before{
             border-bottom-color: #C94F56;

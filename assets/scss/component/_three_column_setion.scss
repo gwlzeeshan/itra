@@ -1,42 +1,43 @@
 .three-column-setion {
     margin: $gap_16 0;
     .card-custom {
-        .card {
+        .col-lg-4.col-md-4{
+            .card {
           
-            .card-img-top {
-                border-radius: 8px;
-                width: 100%;
-                min-height: 279px;
-                max-height: 280px;
-            }
-            .card-body {
-                padding-left: 0;
-                padding-right: 0;
-                padding-bottom: 0;
-                h4{
-                    &.card-title{
-                        margin-bottom: 16px;
-                        line-height: 16px;
-                    }
+                .card-img-top {
+                    border-radius: 8px;
+                    width: 100%;
+                    min-height: 279px;
+                    max-height: 280px;
+                    margin-bottom: $gap_16;
                 }
-                p{
-                    &.card-text{
-                        line-height: 22px;
+                .card-body {
+                    padding: 0;
+                    h4{
+                        &.card-title{
+                            margin-bottom: $gap_16;
+                            line-height: 16px;
+                        }
+                    }
+                    p{
+                        &.card-text{
+                            line-height: 22px;
+                            letter-spacing: -0.02em;
+                            text-align: left;
+                            margin-bottom: $gap_24;
+                        }
+                    }
+                    .second-btn{
+                        line-height: 14px;
                         letter-spacing: -0.02em;
                         text-align: left;
-                        margin-bottom: $gap_24;
-
+                        color: #292D32;
+    
                     }
                 }
-                .second-btn{
-                    line-height: 14px;
-                    letter-spacing: -0.02em;
-                    text-align: left;
-                    color: #292D32;
-
-                }
+                 
             }
-             
         }
+       
     }
 }

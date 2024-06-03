@@ -2700,23 +2700,30 @@ input:focus {
   display: inline-block;
   position: relative;
 }
-.performance-index-card .left .performance-progress .progress-popover .popover-inner.low {
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.green {
   background-color: #4D9E6E;
-  color: #fff;
 }
-.performance-index-card .left .performance-progress .progress-popover .popover-inner.low::before {
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.green::before {
   border-bottom-color: #4D9E6E;
 }
-.performance-index-card .left .performance-progress .progress-popover .popover-inner.med {
-  background-color: #FFB470;
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.yellow {
+  background-color: #FFEA72;
+  color: #292D32;
 }
-.performance-index-card .left .performance-progress .progress-popover .popover-inner.med::before {
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.yellow::before {
+  border-bottom-color: #FFEA72;
+}
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.orange {
+  background-color: #FFB470;
+  color: #292D32;
+}
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.orange::before {
   border-bottom-color: #FFB470;
 }
-.performance-index-card .left .performance-progress .progress-popover .popover-inner.high {
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.red {
   background-color: #C94F56;
 }
-.performance-index-card .left .performance-progress .progress-popover .popover-inner.high::before {
+.performance-index-card .left .performance-progress .progress-popover .popover-inner.red::before {
   border-bottom-color: #C94F56;
 }
 .performance-index-card .left .performance-progress .progress-popover .popover-inner::before {
@@ -2938,28 +2945,27 @@ input:focus {
 .three-column-setion {
   margin: 16px 0;
 }
-.three-column-setion .card-custom .card .card-img-top {
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-img-top {
   border-radius: 8px;
   width: 100%;
   min-height: 279px;
   max-height: 280px;
+  margin-bottom: 16px;
 }
-.three-column-setion .card-custom .card .card-body {
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body {
+  padding: 0;
 }
-.three-column-setion .card-custom .card .card-body h4.card-title {
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body h4.card-title {
   margin-bottom: 16px;
   line-height: 16px;
 }
-.three-column-setion .card-custom .card .card-body p.card-text {
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body p.card-text {
   line-height: 22px;
   letter-spacing: -0.02em;
   text-align: left;
   margin-bottom: 24px;
 }
-.three-column-setion .card-custom .card .card-body .second-btn {
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body .second-btn {
   line-height: 14px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -3204,6 +3210,13 @@ input:focus {
   }
   .three-column-setion .card-custom .col-lg-4.col-md-4:last-child {
     margin-bottom: 0;
+  }
+  .three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body h4.card-title {
+    margin-bottom: 12px;
+    line-height: 16px;
+  }
+  .three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body p.card-text {
+    margin-bottom: 20px;
   }
   .footer-main {
     padding: 32px 0;
