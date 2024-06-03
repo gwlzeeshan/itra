@@ -2965,11 +2965,12 @@ input:focus {
   text-align: left;
   margin-bottom: 24px;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body .second-btn {
+.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body .link-btn {
   line-height: 14px;
   letter-spacing: -0.02em;
   text-align: left;
   color: #292D32;
+  border: none;
 }
 
 .small_fonts {
