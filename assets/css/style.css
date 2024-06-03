@@ -2959,30 +2959,30 @@ input:focus {
   line-height: 20px; /* 100% */
 }
 
-.three-column-setion {
+.three-column-section {
   margin: 16px 0;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-img-top {
+.three-column-section .card-custom .col-lg-4.col-md-4 .card .card-img-top {
   border-radius: 8px;
   width: 100%;
   min-height: 279px;
   max-height: 280px;
   margin-bottom: 26px;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body {
+.three-column-section .card-custom .col-lg-4.col-md-4 .card .card-body {
   padding: 0;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body h4.card-title {
+.three-column-section .card-custom .col-lg-4.col-md-4 .card .card-body h4.card-title {
   margin-bottom: 16px;
   line-height: 16px;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body p.card-text {
+.three-column-section .card-custom .col-lg-4.col-md-4 .card .card-body p.card-text {
   line-height: 22px;
   letter-spacing: -0.02em;
   text-align: left;
   margin-bottom: 24px;
 }
-.three-column-setion .card-custom .col-lg-4.col-md-4 .card .card-body .link-column-btn {
+.three-column-section .card-custom .col-lg-4.col-md-4 .card .card-body .link-column-btn {
   line-height: 14px;
   letter-spacing: -0.02em;
   text-align: left;
