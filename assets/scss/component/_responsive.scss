@@ -79,6 +79,81 @@
 }
 
 @media(max-width:767px){
+    .performance-index-card {
+        background: transparent;
+        border: none;
+        flex-direction: column;
+        padding: 0;
+        gap: 12px;
+        .left{
+            width: 100%;
+            padding: 16px;
+            background: #FFFFFF;
+            border: 1px solid #F3F3F3;
+            border-radius: 12px;
+            .title-head{
+                .title{
+                    font-size: 14px;
+                    line-height: 14px;
+                    img{
+                        margin-left: 8px;
+                    }
+                }
+                .index-select{
+                    width: 130px;
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
+            .performance-progress{
+                padding-bottom: 50px;
+                .progress-popover{
+                    bottom: 0;
+                }
+            }
+        }
+       .right {
+        margin-left: 0;
+        padding-left:0;
+        width: 100%;
+        padding: 16px;
+        background: #FFFFFF;
+        border: 1px solid #F3F3F3;
+        border-radius: 12px;
+        flex-direction: column;
+        gap: 24px;
+
+
+        .profile-info{
+            .info-block{
+                .label{
+                    width: 140px;
+                }
+            }
+        }
+        .profile-status{
+            .social-icon{
+                justify-content: flex-start;
+                gap: 12px;
+            }
+            .status{
+                &.status.subscription-status{
+                    margin-bottom: 16px;
+                }
+                .label{
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+                .value{
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            
+        }
+        
+       }
+    }
    
     .footer-main{
         padding: $gap_32 0 ;

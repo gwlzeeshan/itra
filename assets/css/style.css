@@ -2852,6 +2852,67 @@ input:focus {
   }
 }
 @media (max-width: 767px) {
+  .performance-index-card {
+    background: transparent;
+    border: none;
+    flex-direction: column;
+    padding: 0;
+    gap: 12px;
+  }
+  .performance-index-card .left {
+    width: 100%;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 12px;
+  }
+  .performance-index-card .left .title-head .title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .left .title-head .title img {
+    margin-left: 8px;
+  }
+  .performance-index-card .left .title-head .index-select {
+    width: 130px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .left .performance-progress {
+    padding-bottom: 50px;
+  }
+  .performance-index-card .left .performance-progress .progress-popover {
+    bottom: 0;
+  }
+  .performance-index-card .right {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .performance-index-card .right .profile-info .info-block .label {
+    width: 140px;
+  }
+  .performance-index-card .right .profile-status .social-icon {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .performance-index-card .right .profile-status .status.status.subscription-status {
+    margin-bottom: 16px;
+  }
+  .performance-index-card .right .profile-status .status .label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .right .profile-status .status .value {
+    font-size: 14px;
+    line-height: 16px;
+  }
   .footer-main {
     padding: 32px 0;
   }
