@@ -1,0 +1,97 @@
+.performance_index{
+
+}
+.small_fonts{
+    color: #585858;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 14px; /* 100% */
+letter-spacing: -0.14px;
+}
+
+.card_header{
+   
+
+    .btn-outline-secondary{
+        border-radius: 8px;
+        border: 1px solid#F3F3F3;
+        background: #FFF;
+        color: #292D32;
+
+        /* Body/H1 - Medium 16 */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 100% */
+        letter-spacing: -0.16px;
+
+        &.dropdown-toggle{
+
+            &::after{
+                border: none;
+                content: url(../images/arrow-down_black.svg);
+                vertical-align: middle;
+            }
+            &:focus{
+
+                box-shadow: none;
+            }
+            &:active{
+                background-color: transparent;
+                box-shadow: none;
+
+            }
+            &:hover{
+                background-color: transparent;
+                box-shadow: none;
+
+            }
+            &.show{
+                border: 1px solid  #F3F3F3;
+                background:  #FFF;
+                color: #292D32;
+            }
+        }
+    }
+}
+
+.outline_card{
+    border-radius: 4px;
+    border: 1px solid #DEDEDE;
+    background:#FFF;
+    .headding{
+        h4{
+            color: #292D32;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 16px; /* 114.286% */
+            letter-spacing: -0.14px;
+            margin: 0px;
+        }
+    }
+    .custom_body{
+        p{
+            color:#585858;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 14px; /* 100% */
+            letter-spacing: -0.14px;
+            margin-bottom: 0px;
+        }
+        h5{
+            color:#292D32;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px; /* 100% */
+        }
+    }
+}

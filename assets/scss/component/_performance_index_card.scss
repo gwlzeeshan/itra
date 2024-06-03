@@ -57,15 +57,16 @@
         display: inline-block;
         position: relative;
         &.low{
-          background-color: #269F58;
+          background-color: #4D9E6E;
+          color: #fff;
           &::before{
-            border-bottom-color: #269F58;
+            border-bottom-color: #4D9E6E;
           }
         }
         &.med{
-          background-color: #DE9728;
+          background-color: #FFB470;
           &::before{
-            border-bottom-color: #DE9728;
+            border-bottom-color: #FFB470;
           }
         }
         &.high{

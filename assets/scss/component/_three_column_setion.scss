@@ -1,8 +1,8 @@
 .three-column-setion {
-    margin: 16px 0;
+    margin: $gap_16 0;
     .card-custom {
         .card {
-            background: #000;
+          
             .card-img-top {
                 border-radius: 8px;
                 width: 100%;
@@ -12,6 +12,29 @@
             .card-body {
                 padding-left: 0;
                 padding-right: 0;
+                padding-bottom: 0;
+                h4{
+                    &.card-title{
+                        margin-bottom: 16px;
+                        line-height: 16px;
+                    }
+                }
+                p{
+                    &.card-text{
+                        line-height: 22px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+                        margin-bottom: $gap_24;
+
+                    }
+                }
+                .second-btn{
+                    line-height: 14px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                    color: #292D32;
+
+                }
             }
              
         }

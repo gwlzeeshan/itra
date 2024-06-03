@@ -142,22 +142,22 @@
         }
        }
     }
-        .footer-banner{
-            &::before{
-                height: 26px;
-            }
+    .footer-banner{
+        &::before{
+            height: 26px;
         }
-        .footer-main{
-            .righ-side {
-                input{
-                    width: 62%;
-                }
-                .primary-btn{
-                    width: 38%;
-                }              
+    }
+    .footer-main{
+        .righ-side {
+            input{
+                width: 62%;
             }
+            .primary-btn{
+                width: 38%;
+            }              
         }
-    
+    }
+
 }
 
 @media(max-width:767px){
@@ -223,6 +223,18 @@
         }
         
        }
+    }
+    .three-column-setion {
+        .card-custom {
+
+            .col-lg-4.col-md-4{
+                margin-bottom: 32px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            
+        }
     }
    
     .footer-main{
