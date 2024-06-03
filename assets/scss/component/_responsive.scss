@@ -56,9 +56,53 @@
 }
 
 @media(max-width:991px){
+    
     input{
         font-size: $body16;
         padding: $gap_16 $gap_16;
+    }
+    .performance-index-card {
+        .left{
+            width: 50%;
+            .title-head{
+                .title{
+                    font-size: 14px;
+                    line-height: 14px;
+                    img{
+                        margin-left: 8px;
+                    }
+                }
+                .index-select{
+                    width: 130px;
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
+            .performance-progress{
+                padding-bottom: 50px;
+                .progress-popover{
+                    bottom: 0;
+                }
+            }
+        }
+       .right {
+        width: 50%;
+        margin-left: 36px;
+        padding-left: 22px;
+        display: block;
+        .profile-info{
+            display: block;
+            margin-bottom: 16px;
+            .info-block{
+                .label{
+                    width: 140px;
+                }
+            }
+        }
+        .profile-status{
+            max-width: 100%;
+        }
+       }
     }
         .footer-banner{
             &::before{
@@ -131,8 +175,9 @@
                 }
             }
         }
-        .profile-status{
+        .profile-status {
             display: flex;
+            text-align: left;
             .social-icon{
                 justify-content: flex-start;
                 gap: 12px;

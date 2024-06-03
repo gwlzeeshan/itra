@@ -2774,6 +2774,8 @@ input:focus {
 .performance-index-card .right .profile-status {
   flex-direction: column;
   padding: 0px;
+  max-width: 221px;
+  text-align: right;
 }
 .performance-index-card .right .profile-status .social-icon {
   display: flex;
@@ -2783,22 +2785,31 @@ input:focus {
   justify-content: flex-end;
   margin-bottom: 16px;
 }
-.performance-index-card .right .profile-status .status {
+.performance-index-card .right .profile-status .status-btn {
+  flex-direction: column;
+}
+.performance-index-card .right .profile-status .status-btn .status {
   background: #F3F3F3;
   padding: 8px 16px 8px 16px;
   border-radius: 8px;
+  border: none;
 }
-.performance-index-card .right .profile-status .status.subscription-status {
+.performance-index-card .right .profile-status .status-btn .status:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.performance-index-card .right .profile-status .status-btn .status.subscription-status {
   margin-bottom: 8px;
 }
-.performance-index-card .right .profile-status .status .label {
+.performance-index-card .right .profile-status .status-btn .status .label {
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: -0.01em;
   color: #292D32;
 }
-.performance-index-card .right .profile-status .status .value {
+.performance-index-card .right .profile-status .status-btn .status .value {
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
@@ -2840,6 +2851,43 @@ input:focus {
   input {
     font-size: 16px;
     padding: 16px 16px;
+  }
+  .performance-index-card .left {
+    width: 50%;
+  }
+  .performance-index-card .left .title-head .title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .left .title-head .title img {
+    margin-left: 8px;
+  }
+  .performance-index-card .left .title-head .index-select {
+    width: 130px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .left .performance-progress {
+    padding-bottom: 50px;
+  }
+  .performance-index-card .left .performance-progress .progress-popover {
+    bottom: 0;
+  }
+  .performance-index-card .right {
+    width: 50%;
+    margin-left: 36px;
+    padding-left: 22px;
+    display: block;
+  }
+  .performance-index-card .right .profile-info {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .performance-index-card .right .profile-info .info-block .label {
+    width: 140px;
+  }
+  .performance-index-card .right .profile-status {
+    max-width: 100%;
   }
   .footer-banner::before {
     height: 26px;
@@ -2900,6 +2948,7 @@ input:focus {
   }
   .performance-index-card .right .profile-status {
     display: flex;
+    text-align: left;
   }
   .performance-index-card .right .profile-status .social-icon {
     justify-content: flex-start;
