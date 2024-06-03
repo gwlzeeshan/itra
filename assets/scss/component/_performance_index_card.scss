@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+// .montserrat-font {
+//   font-family: "Montserrat", sans-serif;
+//   font-optical-sizing: auto;
+//   font-style: normal;
+// }
+
+// Custom Select
+
+.form-select {
+	border-radius: 8px;
+	padding: 8px 12px;
+	border-color: #DEDEDE;
+	height: 36px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: #292D32;
+}
+
+// performance-index-card
+
+.performance-index-card{
+  font-family: "Montserrat", sans-serif;
+  color: #292D32;
+  padding: 24px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 12px;
+  .left{
+    .title-head{
+      margin-bottom: 16px;
+      .title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        width: 100%;
+        img{
+          margin-left: 10px;
+        }
+      }
+      .index-select{
+        width: 250px;
+      }
+    }
+    .performance-progress{
+      position: relative;
+      padding-bottom: 60px;
+      .progress-bar{
+            background: linear-gradient(90deg, #60C188 12.04%, #FFEA72 37.34%, rgba(255, 180, 112, 0.9) 61.62%, #FB636C 84.51%);
+            border-radius: 30px;
+            width: 100%;
+            height: 10px;
+      }
+      .progress-popover{
+        position: absolute;
+        bottom: 12px;
+        .popover-inner{
+        background-color: #F3F3F3;
+        padding: 10px;
+        border-radius: 4px;
+        color: #ffffff;
+        height: 40px;
+        display: inline-block;
+        position: relative;
+        &.low{
+          background-color: #269F58;
+          &::before{
+            border-bottom-color: #269F58;
+          }
+        }
+        &.med{
+          background-color: #DE9728;
+          &::before{
+            border-bottom-color: #DE9728;
+          }
+        }
+        &.high{
+          background-color: #C94F56;
+          &::before{
+            border-bottom-color: #C94F56;
+          }
+        }
+        &::before{
+          content: "";
+          position: absolute;
+          right: 20px;
+          top: -10px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-right: 10px solid transparent;
+          border-left: 10px solid transparent;
+          border-bottom: 10px solid #F3F3F3;
+          border-top: 0;
+        }
+        span{
+          font-size: 20px;
+          line-height: 20px;
+          columns: #ffffff;
+          padding: 0 7px;
+          font-weight: 700;
+          &.elite{
+            font-size: 16px;
+            list-style: 16px;
+            font-weight: 500;
+            border-left: 1px solid #ffffff;
+          }
+        }
+        }
+      }
+    }
+  }
+  .right{
+    margin-left: 56px;
+    padding-left: 32px;
+    border-left: 1px solid #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    .profile-info{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      .info-block{
+          display: flex;
+          gap: 16px;
+          .label{
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 14px;
+              color: #292D32;
+              width: 120px;
+              .icon{
+                margin-right: 16px;
+              }
+          }
+          .value {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 14px;
+              color: #585858;
+          }
+      }
+    }
+    .profile-status {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 0px;
+            gap: 16px;
+            flex-grow: 0;
+    }
+  }
+}
