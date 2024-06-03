@@ -2898,9 +2898,15 @@ input:focus {
   .performance-index-card .right .profile-info .info-block .label {
     width: 140px;
   }
+  .performance-index-card .right .profile-status {
+    display: flex;
+  }
   .performance-index-card .right .profile-status .social-icon {
     justify-content: flex-start;
     gap: 12px;
+  }
+  .performance-index-card .right .profile-status .status {
+    width: auto;
   }
   .performance-index-card .right .profile-status .status.status.subscription-status {
     margin-bottom: 16px;

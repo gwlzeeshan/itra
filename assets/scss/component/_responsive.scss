@@ -132,11 +132,14 @@
             }
         }
         .profile-status{
+            display: flex;
             .social-icon{
                 justify-content: flex-start;
                 gap: 12px;
             }
             .status{
+                width: auto;
+                
                 &.status.subscription-status{
                     margin-bottom: 16px;
                 }
