@@ -2682,7 +2682,7 @@ input:focus {
 }
 .performance-index-card .left .performance-progress .progress-popover {
   position: absolute;
-  bottom: 12px;
+  bottom: 16px;
 }
 .performance-index-card .left .performance-progress .progress-popover .popover-inner {
   background-color: #F3F3F3;
@@ -2727,8 +2727,7 @@ input:focus {
 .performance-index-card .left .performance-progress .progress-popover .popover-inner span {
   font-size: 20px;
   line-height: 20px;
-  -moz-columns: #ffffff;
-       columns: #ffffff;
+  color: #ffffff;
   padding: 0 7px;
   font-weight: 700;
 }
@@ -2841,6 +2840,15 @@ input:focus {
     font-size: 14px;
     line-height: 14px;
   }
+  .performance-index-card .left .performance-progress .progress-popover .popover-inner span {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .performance-index-card .left .performance-progress .progress-popover .popover-inner span.elite {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.01em;
+  }
   .performance-index-card .right {
     margin-left: 26px;
     padding-left: 22px;
@@ -2881,7 +2889,7 @@ input:focus {
     padding-bottom: 50px;
   }
   .performance-index-card .left .performance-progress .progress-popover {
-    bottom: 0;
+    bottom: 5px;
   }
   .performance-index-card .right {
     width: 50%;
@@ -2922,12 +2930,6 @@ input:focus {
     background: #FFFFFF;
     border: 1px solid #F3F3F3;
     border-radius: 12px;
-  }
-  .performance-index-card .left .performance-progress {
-    padding-bottom: 50px;
-  }
-  .performance-index-card .left .performance-progress .progress-popover {
-    bottom: 0;
   }
   .performance-index-card .right {
     margin-left: 0;

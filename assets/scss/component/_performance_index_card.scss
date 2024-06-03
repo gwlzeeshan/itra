@@ -47,7 +47,7 @@
       }
       .progress-popover{
         position: absolute;
-        bottom: 12px;
+        bottom: 16px;
         .popover-inner{
         background-color: #F3F3F3;
         padding: 10px;
@@ -90,7 +90,8 @@
         span{
           font-size: 20px;
           line-height: 20px;
-          columns: #ffffff;
+          color: #ffffff;
+          
           padding: 0 7px;
           font-weight: 700;
           &.elite{

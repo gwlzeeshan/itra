@@ -33,10 +33,27 @@
                     line-height: 14px;
                 }
             }
+            .performance-progress{
+                .progress-popover{
+                    .popover-inner{
+                        span{
+                            font-size: 16px;
+                            line-height: 16px;
+                            &.elite{
+                                font-size: 14px;
+                                line-height: 14px;
+                                letter-spacing: -0.01em;
+                            }
+                          }
+                    }
+                    
+                }
+            }
         }
        .right {
         margin-left: 26px;
         padding-left: 22px;
+        
         .profile-info{
             .info-block{
                 .label{
@@ -102,7 +119,7 @@
             .performance-progress{
                 padding-bottom: 50px;
                 .progress-popover{
-                    bottom: 0;
+                    bottom: 5px;
                 }
             }
         }
@@ -156,13 +173,6 @@
             background: #FFFFFF;
             border: 1px solid #F3F3F3;
             border-radius: 12px;
-            
-            .performance-progress{
-                padding-bottom: 50px;
-                .progress-popover{
-                    bottom: 0;
-                }
-            }
         }
        .right {
         margin-left: 0;
