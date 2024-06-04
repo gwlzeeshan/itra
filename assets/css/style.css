@@ -3135,29 +3135,46 @@ input:focus {
     font-size: 16px;
     padding: 16px 16px;
   }
+  .performance-index-card {
+    background: transparent;
+    border: none;
+    flex-direction: column;
+    padding: 0;
+    gap: 12px;
+  }
   .performance-index-card .left {
-    width: 50%;
-  }
-  .performance-index-card .left .performance-progress {
-    padding-bottom: 50px;
-  }
-  .performance-index-card .left .performance-progress .progress-popover {
-    bottom: 5px;
+    width: 100%;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 12px;
   }
   .performance-index-card .right {
-    width: 50%;
-    margin-left: 36px;
-    padding-left: 22px;
-    display: block;
-  }
-  .performance-index-card .right .profile-info {
-    margin-bottom: 16px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 12px;
+    justify-content: space-between;
   }
   .performance-index-card .right .profile-info .info-block .label {
     width: 140px;
   }
-  .performance-index-card .right .profile-status {
-    max-width: 100%;
+  .performance-index-card .right .profile-status .social-icon {
+    gap: 12px;
+  }
+  .performance-index-card .right .profile-status .status-btn .status.status.subscription-status {
+    margin-bottom: 16px;
+  }
+  .performance-index-card .right .profile-status .status-btn .status .label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .performance-index-card .right .profile-status .status-btn .status .value {
+    font-size: 14px;
+    line-height: 16px;
   }
   .footer-banner::before {
     height: 26px;
@@ -3214,17 +3231,6 @@ input:focus {
   }
   .performance-index-card .right .profile-status .status-btn .status {
     width: auto;
-  }
-  .performance-index-card .right .profile-status .status-btn .status.status.subscription-status {
-    margin-bottom: 16px;
-  }
-  .performance-index-card .right .profile-status .status-btn .status .label {
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .performance-index-card .right .profile-status .status-btn .status .value {
-    font-size: 14px;
-    line-height: 16px;
   }
   .three-column-setion .card-custom .col-lg-4.col-md-4 {
     margin-bottom: 32px;

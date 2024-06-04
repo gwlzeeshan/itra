@@ -113,33 +113,60 @@
         padding: $gap_16 $gap_16;
     }
     .performance-index-card {
+        background: transparent;
+        border: none;
+        flex-direction: column;
+        padding: 0;
+        gap: 12px;
         .left{
-            width: 50%;
-           
-            .performance-progress{
-                padding-bottom: 50px;
-                .progress-popover{
-                    bottom: 5px;
-                }
-            }
+            width: 100%;
+            padding: 16px;
+            background: #FFFFFF;
+            border: 1px solid #F3F3F3;
+            border-radius: 12px;
         }
        .right {
-        width: 50%;
-        margin-left: 36px;
-        padding-left: 22px;
-        display: block;
+        margin-left: 0;
+        padding-left:0;
+        width: 100%;
+        padding: 16px;
+        background: #FFFFFF;
+        border: 1px solid #F3F3F3;
+        border-radius: 12px;
+       justify-content: space-between;
+
+
         .profile-info{
-          
-            margin-bottom: 16px;
             .info-block{
                 .label{
                     width: 140px;
                 }
             }
         }
-        .profile-status{
-            max-width: 100%;
+        .profile-status {
+            .social-icon{
+                gap: 12px;
+            }
+            .status-btn {
+              
+                .status{
+                    &.status.subscription-status{
+                        margin-bottom: 16px;
+                    }
+                    .label{
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+                    .value{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                }
+            }
+           
+            
         }
+        
        }
     }
     .footer-banner{
@@ -164,10 +191,7 @@
     .card-custom{
         padding: $gap_20 $gap_16;
     }
-    .general_stats{
-        
-    }
-    
+
     // --- three-column-setion End
     .performance-index-card {
         background: transparent;
@@ -212,18 +236,6 @@
                 max-width: 230px;
                 .status{
                     width: auto;
-                    
-                    &.status.subscription-status{
-                        margin-bottom: 16px;
-                    }
-                    .label{
-                        font-size: 14px;
-                        line-height: 14px;
-                    }
-                    .value{
-                        font-size: 14px;
-                        line-height: 16px;
-                    }
                 }
             }
            
